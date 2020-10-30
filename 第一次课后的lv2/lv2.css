@@ -1,0 +1,82 @@
+#box{
+    width: 600px;
+    height: 500px;
+    border: 1px solid grey;
+    border-radius:5px 5px 5px 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -300px;
+}
+.header{
+    background-color: #eeeeee;
+    height: 60px;
+}
+.header span{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.menv{
+    margin-top: 20px;
+    display:block;
+}
+form{
+    width: 95%;
+    text-align: center;
+}
+input{
+    width: 70%;
+    height: 30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.header span{
+    font-size: 25px;
+    color: black;
+    padding-left: 20px;
+}
+.first p{
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 85px;
+}
+.pass{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.pass span{
+    font-size: 18px;
+    float: left;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.pass a{
+    color: green;
+    float: right;
+    margin-right: 90px;
+}
+.phone{
+    color: green;
+}
+.submit{
+    height: 40px;
+    width: 400px;
+    background-color:rgb(22, 170, 66) ;
+    border:rgb(16, 116, 46) ;
+    color: azure;
+    border-radius: 5px 5px 5px 5px;
+}
+.more p{
+    text-align: center;
+}
+.baidu{
+    width: 20px;
+    height:20px;
+    text-align: center;
+}
+.last span{
+    color: rgb(22, 170, 66);
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第五次作业lv2</title>
+</head>
+<body style="background-color: white;">
+    <button id="color">更改颜色</button>
+    <p id="text">我爱红岩网校</p>
+    <button id="big">字体放大</button>
+</body>
+<script>
+    let btn = document.getElementById("color");
+	let body = document.body;
+	let array = ["blue", "yellow", "white", "black","#FFF"];
+	let index = 0;
+	btn.onclick = function () {
+		body.style.backgroundColor = array[index];
+		index = (index + 1) % array.length;
+    }
+    let oUp = document.getElementById('big');
+    let num=16;
+    var oDiv = document.getElementById('text');
+    oUp.onclick = function () {
+num += 1.2;
+oDiv.style.fontSize = num + 'px';
+oDiv.style.fontSize = num + 'px';
+}
+    
+</script>
+</html>
